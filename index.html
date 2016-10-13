@@ -5,6 +5,19 @@
 	<title>Converter</title>
 </head>
 <body>
+	<h1>Temperature Converter</h1>
+	<form action="" method="get">
+		<fieldset>
+			<legend>Temperature Converter</legend>
+			<label>Enter in your temperature:</label>
+			<input type="number" name="quantity"><br>
+			<input type="radio" name="base" value="fahrenheit" checked> Fahrenheit<br>
+			<input type="radio" name="base" value="celsius"> Celsius
+		</fieldset>
+	</form>
+	<div id="converted">
+		<p>The temperature is: </p>
+	</div>
 	<script src="converter.js"></script>
 </body>
 </html>
