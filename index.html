@@ -4,17 +4,27 @@
 	<meta charset="UTF-8">
 	<title>Converter</title>
 	<style>
+		.red {
+			color: red;
+		}
 
+		.blue {
+			color: blue;
+		}
+
+		.green {
+			color: green;
+		}
 	</style>
 </head>
 <body>
 	<h1>Temperature Converter</h1>
 		<fieldset>
 			<legend>Temperature Converter</legend>
-			<label>Enter in your temperature:</label>
+			<label>Choose base temperature:</label>
 			<input id ="qinput" type="number" name="quantity"><br>
-			<input type="radio" name="base" value="fahrenheit" checked> Fahrenheit<br>
-			<input type="radio" name="base" value="celsius"> Celsius<br>
+			<input type="radio" name="base" id="fahrenheit" value="fahrenheit" checked> Fahrenheit<br>
+			<input type="radio" name="base" id="celsius" value="celsius"> Celsius<br>
 			<button id="converter">Convert me</button>
 			<button id="clear">Clear me</button>
 		</fieldset>
