@@ -15,8 +15,10 @@ var qinput = document.getElementById("qinput");
 // This function should determine which conversion should
 // happen based on which radio button is selected.
 
-function determineConverter (clickEvent) {
-  console.log("event", clickEvent);
+function determineConverter (base) {
+  console.log("event", this.base);
+  var message = document.getElementById("temp").value;
+  alert(message);
 }
 
 function clearInput () {
